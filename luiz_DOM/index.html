@@ -1,25 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="shortcut icon" href="/assets/favico.png" type="image/x-icon">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Document</title>
 </head>
+
 <body>
 
-    
+    <header>
+        <h1>Exercício com DOM </h1>
+    </header>
 
-    <div id="list-conteiner">
-        <ul id="dynamic-list">
-            <li>black myth: wukong</li>
-            <li>god of war ragnarok</li>
+    <nav>
+        <ul>
+            <a href="">
+                <li>Página 01</li>
+            </a>
+
+            <a href="">
+                <li>Página 02</li>
+            </a>
+
+            <a href="">
+                <li>Página 03</li>
+            </a>
         </ul>
-    </div>
+    </nav>
 
-    <button id="add-item-btn">Adicionar item</button>
-    
+    <main>
+        <article>
+            <h2>Manipulação de DOM</h2>
+
+            <img src="/assets/the-last-of-us.webp" alt="">
+
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit eos ratione, nam tempore velit
+                deleniti molestias dolore distinctio, rerum consequatur doloribus porro officiis tenetur veritatis?
+                Ratione non illo sint consectetur! Quos obcaecati quis quae, dolorum expedita eaque tenetur adipisci 
+                ipsa, laboriosam culpa hic suscipit? Voluptatem ipsa vitae dolore iure perferendis, sunt veritatis
+                tempora deserunt esse dicta alias repellendus delectus minima?
+            </p>
+
+            <h2>Exemplo de manipulação DOM</h2>
+            <p id="meuParagrafo">Este é um paragrafo</p>
+            <button onclick="alterarTexto()">Alterar texto</button>
+        </article>
+    </main>
+
+    <footer>
+        Desenvolvido por: Luiz Fernando de Oliveira - 2024@
+    </footer>
+
 </body>
-    <script src="./assents/js/script_dom.js">
-        // Na metodologia DOM não é mais utilizado '(aspas simples)' ou "(apostrofo)" e sim `(acento circunflexo)`
-    </script>
+
+
+
+
+
+<script src="/assets/js/script.js"></script>
+
 </html>
